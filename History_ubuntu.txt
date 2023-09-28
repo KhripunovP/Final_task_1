@@ -1,0 +1,100 @@
+  255  mkdir final_task
+
+  256  cd final_task
+
+  257  cat Домашние животные
+
+  258  cat >  Домашние животные
+
+  259  cat >  Домашние_животные
+
+  260  cat > Вьючные_животные
+
+  261  cat Домашние_животные Вьючные_животные > Животные
+
+  262  cat Животные
+
+  263  mv Животные Друзья_человека
+
+  264  cat Друзья_человека
+
+  265  mkdir newfolder
+
+  266  mv Друзья_человека /newfolder
+
+  267  mv Друзья_человека newfolder
+
+  268  sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.23-1_all.deb   
+
+  269  sudo dpkg -i mysql-apt-config_0.8.23-1_all.deb 
+
+  270  sudo apt-get update
+
+  271  sudo apt-get install mysql-server  
+
+  272  sudo wget https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb 
+
+  273  sudo dpkg -i docker-ce-cli_20.10.13~3-0~ubuntu-jammy_amd64.deb
+
+  274  sudo mysql
+
+  275  sudo lsof /var/run/mysqld/mysqld.sock
+
+  276  sudo mkdir /var/run/mysqld
+
+  277  sudo mkfifo /var/run/mysqld/mysqld.sock
+
+  278  sudo chown -R mysql /var/run/mysqld
+
+  279  sudo apt update
+
+  280  sudo apt install mysql-server
+
+  281  sudo systemctl status mysql
+
+  282  sudo systemctl start mysql
+
+  283  cd..
+
+  284  cd ..
+
+  285  sudo mysql
+
+  286  sudo apt install mysql-server
+
+  287  service mysql status
+
+  288  sudo service mysql status
+
+  289  sudo nano /etc/mysql/my.cnf
+
+  290  mysql --version
+
+  291  sudo service mysql restar
+
+  292  sudo service mysql status
+
+  293  systemctl status mariadb.service
+
+  294  sudo mysqld
+
+  295  sudo mysql
+
+  296  l -ls /run/mysqld
+
+  297  sudo docker-compose up
+
+  298  sudo nano docker-compose.yml
+
+  299  sudo docker-compose up
+
+  300  sudo nano docker-compose.yml
+
+  301  sudo docker-compose up -d
+
+  302  sudo nano docker-compose.yml
+
+  303  sudo docker-compose up -d
+
+  304  history
+
